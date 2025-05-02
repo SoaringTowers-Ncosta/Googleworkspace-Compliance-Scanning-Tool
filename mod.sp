@@ -3,6 +3,8 @@ mod "Google_Workspace_Compliance" {
   title         = "Google Workspace Compliance"
   description   = "Run individual configuration, compliance and security controls or full compliance benchmarks for CIS for Google Workspace using Powerpipe and Steampipe."
   color         = "#2D8CFF"
+  documentation = file("./cis_v100/docs/index.md")
+  icon          = "/images/mods/turbot/zoom-compliance.svg"
   categories    = ["cis", "compliance", "saas", "security"]
 
   opengraph {
